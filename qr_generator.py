@@ -35,37 +35,3 @@ if __name__ == "__main__":
 
     generate_qr(link, output_path)
 
-
-
-
-#------------Window----------------------
-
-
-# import qrcode
-
-# def generate_qr(link, output_file="qrcode.png"):
-#     # Create QR
-#     qr = qrcode.QRCode(
-#         version=1,
-#         error_correction=qrcode.constants.ERROR_CORRECT_H,
-#         box_size=10,
-#         border=4,
-#     )
-
-#     qr.add_data(link)
-#     qr.make(fit=True)
-
-#     # Generate image
-#     img = qr.make_image(fill_color="black", back_color="white")
-#     img.save(output_file)
-
-#     print(f"QR Code generated successfully: {output_file}")
-
-# # Example usage
-# # if __name__ == "__main__":
-# #     link = "https://play.google.com/store/apps/details?id=in.itfixer199.app"         # 🔗 Replace with your link
-# #     generate_qr(link, "itfixer_app_qr.png")
-
-# if __name__ == "__main__":
-#     link = "https://play.google.com/store/apps/details?id=in.itfixer199.app"
-#     generate_qr(link, output_file="c:/Users/lenovo/Downloads/itfixer_app_qr.png")
